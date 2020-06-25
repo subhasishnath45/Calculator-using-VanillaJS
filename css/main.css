@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.calculator{
+    width:405px;
+    border:solid 1px;
+    background: #ddd;
+    margin:30px;
+    padding:20px;
+}
+.output{
+    font-family:monospace;
+    padding:20px;
+    height:50px;
+    font-size: 20px;
+    text-align: right;
+    background-color: #ffffff;
+}
+.numbers{
+    width:100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.numbers .num0{
+    width:200px;
+}
+button{
+    border:1px solid #ffffff;
+    background:gray;
+    width:33.33%;
+    height:80px;
+    cursor: pointer;
+    color:#ffffff;
+    font-size: 30px;
+}
+.operators{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 0;
+}
+.operators button{
+    width:100%;
+    height:80px;
+}
+button.submit{
+    width: 100%;
+}
